@@ -1,0 +1,14 @@
+# Install PyTorch separately in setup_windows.bat for a CUDA-enabled build.
+transformers
+accelerate
+bitsandbytes
+huggingface_hub
+Pillow
+opencv-python
+PyMuPDF
+gradio
+pandas
+matplotlib
+scipy
+scikit-learn
+llama-cpp-python

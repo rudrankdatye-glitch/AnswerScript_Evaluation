@@ -1,0 +1,29 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Downloaded models and tools
+models/
+hf_cache/
+tools/
+*.gguf
+*.safetensors
+*.bin
+
+# Runtime data / private student information
+data/uploads/
+data/reports/
+data/work/
+data/evaluations.db
+*.sqlite
+*.sqlite3
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
